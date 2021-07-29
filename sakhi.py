@@ -141,7 +141,7 @@ if __name__ == "__main__":
             cap.release()
             cv2.destroyAllWindows()
 
-
+'''
      # do this for sending email
     def sendEmail(to, conten):
       elif 'send mail to mamma' in query:
@@ -154,7 +154,7 @@ if __name__ == "__main__":
             except Exception as e:
                 print(e)
                 speak("sorry I was unable to send the mail") 
-                
+       '''         
     
 
 
